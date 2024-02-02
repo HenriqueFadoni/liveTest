@@ -14,3 +14,7 @@ Additionally, I added a few images and icons to the application, so it looks mor
 
 - Once the interview ended, I did not have access to the layout image. Due to the lack of time, I made a few changes in the app while betting on my memory of the given layout.
 - Also, due to the test being quite fast, I did not focus so much on Android inasmuch as the majority of the market uses apple (iOS) devices ( sad but true ), I was also not entirely sure if that was requested.
+
+## So, how it looks?
+
+![image](https://github.com/HenriqueFadoni/liveTest/assets/38730725/a7969562-fe31-4888-ab4d-989f60a6b389)
