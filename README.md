@@ -1,80 +1,16 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Thought Process
 
-# Getting Started
+At the start of the interview, my first thought was to break the giving layout into components. From there, I started thinking about what would be reusable components (E.g a Button ) and what would be a standard component. Usually, I like to analyze the given question first, before going hands-on with coding. Since the test seems to focus more on the design aspect of things I worried less about logic and functionality.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+From there I began coding the application and prioritizing what would be a must-have in the layout. For example, the scrollable feature and the necessary information required to display. Once I had only 45 minutes to end this small project, I decided to focus so much on responsiveness across devices. However, this would be easily implemented  with react-native-responsive-screen.
 
-## Step 1: Start the Metro Server
+## Highlights
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+After the given interview, I added a few more styling details and reusability. For example, I added `variables.tsx` and `boxshadow.tsx` to reuse stylings across files (DRY Concepts). Additionally, I renamed a few variables, created two components, and iterated a short list to render JSX elements. Overall, I wanted to make sure the code was maintainable and scalable for the longer term. 
 
-To start Metro, run the following command from the _root_ of your React Native project:
+Additionally, I added a few images and icons to the application, so it looks more appealing.
 
-```bash
-# using npm
-npm start
+## Notes
 
-# OR using Yarn
-yarn start
-```
-
-## Step 2: Start your Application
-
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
-
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
-# liveTest
+- Once the interview ended, I did not have access to the layout image. Due to the lack of time, I made a few changes in the app while betting on my memory of the given layout.
+- Also, due to the test being quite fast, I did not focus so much on Android inasmuch as the majority of the market uses apple (iOS) devices ( sad but true ), I was also not entirely sure if that was requested.
